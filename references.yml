@@ -1,0 +1,1497 @@
+FFL:
+  type: web
+  title: Formalized Formal Logic
+  author:
+    - Saito, Shogo
+    - Noguchi, Mashu
+  date: 2025
+  url: https://github.com/FormalizedFormalLogic/Foundation
+
+Cor87:
+  type: article
+  title: Weak Logics with Strict Implication
+  author: Corsi, Giovanna
+  date: 1987-01
+  page-range: 389-406
+  url:
+    value: https://onlinelibrary.wiley.com/doi/10.1002/malq.19870330503
+    date: 2025-04-21
+  serial-number:
+    doi: 10.1002/malq.19870330503
+    issn: 0942-5616, 1521-3870
+  parent:
+    type: periodical
+    title: Mathematical Logic Quarterly
+    issue: 5
+    volume: 33
+
+Göd33:
+  type: article
+  title: Eine {Interpretation} Des Intuitionischen {Aussagenkalküls}
+  author: Gödel, Kurt
+  date: 1933
+  page-range: "39"
+  parent:
+    type: periodical
+    title: Ergebnisse Eines Mathematischen Kolloquiumus
+    volume: 4
+
+MT48:
+  type: article
+  title: Some Theorems about the Sentential Calculi of {Lewis} and {Heyting}
+  author:
+    - McKinsey, J. C. C.
+    - Tarski, Alfred
+  date: 1948-03
+  page-range: 1-15
+  url:
+    value: https://www.cambridge.org/core/journals/journal-of-symbolic-logic/article/abs/some-theorems-about-the-sentential-calculi-of-lewis-and-heyting/A1AA3FA63649C074202F605A4D2094A4
+    date: 2024-09-19
+  serial-number:
+    doi: 10.2307/2268135
+    issn: 0022-4812, 1943-5886
+  abstract: In this paper we shall prove theorems about some systems of sentential calculus, by making use of results we have established elsewhere regarding closure algebras and Brouwerian albegras. We shall be concerned mostly with the Lewis system and the Heyting system. Some of the results here are new (in particular, Theorems 2.4, 3.1, 3.9, 3.10, 4.5, and 4.6); others have been stated without proof in the literature (in particular, Theorems 2.1, 2.2, 4.4, 5.2, and 5.3).The proofs to be given here will be found to be mostly very simple; generally speaking, they amount to drawing conclusions from the theorems established in McKinsey and Tarski [10] and [11]. We have thought it might be worth while, however, to publish these rather elementary consequences of our previous work—so as to make them readily available to those whose main interest lies in sentential calculus rather than in topology or algebra.
+  parent:
+    type: periodical
+    title: The Journal of Symbolic Logic
+    issue: 1
+    volume: 13
+
+SMdJ16:
+  type: article
+  title: Weak Subintuitionistic Logics
+  author:
+    - name: Shirmohammadzadeh Maleki
+      given-name: Fatemeh
+    - name: de Jongh
+      given-name: Dick
+  date: 2016-12-26
+  page-range: jzw62
+  url:
+    value: https://academic.oup.com/jigpal/article-lookup/doi/10.1093/jigpal/jzw062
+    date: 2025-11-12
+  serial-number:
+    doi: 10.1093/jigpal/jzw062
+    issn: 1367-0751, 1368-9894
+  abstract: A system WF of subintuitionistic logic is introduced, weaker than Corsi’s basic subintuitionistic system F. A derivation system with and without hypotheses is given in line with the authors’ derivation system for F. A neighbourhood semantics is introduced with a somewhat more complex definition than the neighbourhood semantics for non-normal modal logics. Completeness is proved for WF with respect to this neighbourhood semantics, and similarly for some logics between WF and F which characterize nice frame classes. The study by the authors of the conservativity of IPC over F with respect to some classes of implications is extended to WF, and shows clearly the difference in strength between the two logics. Study of translations of these weak subintuitionistic logics into non-normal modal logics turned out to be hard because of the difference between their respective neighbourhood structures and leaves us with some open problems.
+  parent:
+    type: periodical
+    title: Logic Journal of IGPL
+
+dJSM17:
+  type: article
+  title: Subintuitionistic {Logics} with {Kripke Semantics}
+  author:
+    - name: de Jongh
+      given-name: Dick
+    - name: Shirmohammadzadeh Maleki
+      given-name: Fatemeh
+  date: 2017
+  editor:
+    - Hansen, Helle Hvid
+    - Murray, Sarah E.
+    - Sadrzadeh, Mehrnoosh
+    - Zeevat, Henk
+  page-range: 333-354
+  url:
+    value: http://link.springer.com/10.1007/978-3-662-54332-0_18
+    date: 2025-10-13
+  serial-number:
+    doi: 10.1007/978-3-662-54332-0_18
+    isbn: 978-3-662-54331-3 978-3-662-54332-0
+  abstract: The subintuitionistic logics introduced by Corsi and Restall are developed in a uniform manner. Proof systems are given for derivations without and with assumptions. The results are applied to give conservation theorems for intuitionistic logic IPC over Corsi’s system F. For Visser’s basic logic strong completeness is proved and additional conservation results are obtained.
+  parent:
+    type: anthology
+    title: Logic, {Language}, and {Computation}
+    publisher:
+      name: Springer Berlin Heidelberg
+      location: Berlin, Heidelberg
+    volume: 10148
+
+dJSM18:
+  type: article
+  title: Subintuitionistic Logics and the Implications They Prove
+  author:
+    - name: de Jongh
+      given-name: Dick
+    - name: Shirmohammadzadeh Maleki
+      given-name: Fatemeh
+  date: 2018-12
+  page-range: 1525-1545
+  url:
+    value: https://linkinghub.elsevier.com/retrieve/pii/S0019357718303240
+    date: 2025-11-18
+  serial-number:
+    doi: 10.1016/j.indag.2018.01.013
+    issn: "00193577"
+  abstract: This is an investigation of the implications of IPC which remain provable when one weakens intuitionistic logic in various ways. The research is concerned with logics with Kripke models as introduced by G. Corsi in 1987, and others like G. Restall, Došen, Visser. This leads to conservativity results for IPC with regard to classes of implications in some of these logics. Moreover, similar results are reached for some weaker subintuitionistic systems with neighborhood models introduced by the authors in 2016. In addition, the relationship between two types of neighborhood models introduced in that work is clarified. This clarification leads also to modal companions for weaker logics.
+  parent:
+    type: periodical
+    title: Indagationes Mathematicae
+    issue: 6
+    volume: 29
+
+FMT92:
+  type: article
+  title: The {Pure Logic} of {Necessitation}
+  author:
+    - Fitting, Melvin C.
+    - Marek, V. Wiktor
+    - Truszczyński, Miroslaw
+  date: 1992
+  page-range: 349-373
+  url:
+    value: https://academic.oup.com/logcom/article-lookup/doi/10.1093/logcom/2.3.349
+    date: 2025-10-08
+  serial-number:
+    doi: 10.1093/logcom/2.3.349
+    issn: 0955-792X, 1465-363X
+  parent:
+    type: periodical
+    title: Journal of Logic and Computation
+    issue: 3
+    volume: 2
+
+KK25:
+  type: web
+  title: Modal Logical Aspects of Provability Predicates and Consistency Statements
+  author:
+    - Kogure, Haruka
+    - Kurahashi, Taishi
+  date: 2025-11-19
+  url:
+    value: http://arxiv.org/abs/2511.15531
+    date: 2025-12-07
+  serial-number:
+    arxiv: "2511.15531"
+    doi: 10.48550/arXiv.2511.15531
+  abstract: This paper studies the modal logical aspects of provability predicates and consistency statements for theories of arithmetic. First, we provide an overview of previous works on the correspondence between various derivability conditions for provability predicates and different modal logics. The main technical contribution of the present paper is to establish the arithmetical completeness of the logics NP, ND, NP4, and ND4 by extending Solovay’s method and refining Arai’s construction of Rosser provability predicates.
+
+Kur24:
+  type: article
+  title: The Provability Logic of All Provability Predicates
+  author: Kurahashi, Taishi
+  date: 2024-09
+  page-range: 1108-1135
+  serial-number:
+    doi: 10.1093/logcom/exad060
+    issn: 0955-792X, 1465-363X
+  abstract: Abstract We prove that the provability logic of all provability predicates is exactly Fitting, Marek, and Truszczyński’s pure logic of necessitation \$\\textsf\{N\}\$. Moreover, we introduce three extensions \$\\textsf\{N4\}\$, \$\\textsf\{NR\}\$ and \$\\textsf\{NR4\}\$ of \$\\textsf\{N\}\$ and investigate the arithmetical semantics of these logics. In fact, we prove that \$\\textsf\{N4\}\$, \$\\textsf\{NR\}\$ and \$\\textsf\{NR4\}\$ are the provability logics of all provability predicates satisfying the third condition \$\\textbf\{D3\}\$ of the derivability conditions, all Rosser provability predicates and all Rosser provability predicates satisfying \$\\textbf\{D3\}\$, respectively.
+  parent:
+    type: periodical
+    title: Journal of Logic and Computation
+    issue: 6
+    volume: 34
+
+Tom25:
+  type: article
+  title: "様相論理Nの計算複雑性"
+  author:
+    - name: 冨永
+      given-name: 浩平
+  date: 2025-12-19
+  parent:
+    - type: proceedings
+    - type: conference
+      title: "MLG 60"
+
+Vis81:
+  type: article
+  title: A Propositional Logic with Explicit Fixed Points
+  author: Visser, Albert
+  date: 1981-06
+  page-range: 155-175
+  url:
+    value: http://link.springer.com/10.1007/BF01874706
+    date: 2024-10-02
+  serial-number:
+    doi: 10.1007/BF01874706
+    issn: 0039-3215, 1572-8730
+  abstract: This paper studies a propositional logic which is obtained by inter preting implication as formal provability. It is also the logic of finite irreflexive Kripke Models. A Kripke Model completeness theorem is given and several completeness theorem? for interpretations into Provability Logic and Peano Arithmetic.
+  parent:
+    type: periodical
+    title: Studia Logica
+    issue: 2
+    volume: 40
+
+CZ97:
+  type: book
+  title: Modal Logic
+  author:
+    - Chagrov, Alexander
+    - Zakharyaschev, Michael
+  date: 1997
+  publisher:
+    name: Clarendon Press ; Oxford University Press
+    location: "Oxford : New York"
+  issue: 35
+  page-total: 605
+  serial-number:
+    isbn: 978-0-19-853779-3
+  parent:
+    type: book
+    title: Oxford Logic Guides
+
+Rui91:
+  type: article
+  title: Constructive Logic and the Paradoxes
+  author: Ruitenburg, Wim
+  date: 1991-01-01
+  page-range: 271-301
+  parent:
+    type: periodical
+    title: Modern Logic
+    issue: 4
+    volume: 1
+
+Sai24:
+  type: misc
+  title: Leanを用いたGödelの第一・第二不完全性定理の形式化
+  url: https://iehality.github.io/ffl-slides/main.pdf
+  author: 齋藤, 彰悟
+  date: 2024-12-05
+  
+Car26:
+  type: article
+  title: "CIC + EM ⊢ Con(ZF): the consistency of ZF in type theory with excluded middle and no choice"
+  url: https://arxiv.org/abs/2609.23143
+  author: Carneiro, Mario
+  date: 2026-09-19
+
+Car19:
+  type: thesis
+  title: The {Type Theory} of {Lean}
+  author: Carneiro, Mario
+  date: 2019
+  organization: Carnegie Mellon University
+  abstract: Meta-theoretic properties of Lean 3, including soundness.
+  genre: Master's thesis
+
+CarL4LM: 
+  type: Misc
+  author: Carneiro, Mario
+  title: lean4lean-model
+  url: https://github.com/nomeata/lean-inductive-models
+  date: 2026-09-19
+
+Alwe260929:
+  type: Misc
+  author: "@Alwe_Logic"
+  title: https://x.com/Alwe_Logic/status/2099488711427973188
+  url: https://x.com/Alwe_Logic/status/2099488711427973188
+  date: 2026-09-14
+
+iehality261011:
+  type: Misc
+  author: "@_ni_nn_i_"
+  title: https://x.com/_ni_nn_i_/status/2109217944291176598
+  url: https://x.com/_ni_nn_i_/status/2109217944291176598
+  date: 2026-10-11
+
+dM260801:
+  type: Misc
+  author: "de Moura, Leonardo"
+  title: "Postmortem for Kernel Soundness Bug #14576" 
+  date: 2026-08-01
+
+Kum260726:
+  type: Misc
+  author: Ramana, Kumar
+  title: "CollatzLean" 
+  date: 2026-07-26
+
+EqationalTheories:
+  type: article
+  title: "The Equational Theories Project: Advancing Collaborative Mathematical Research at Scale"
+  author:
+    - Matthew Bolan 
+    - Joachim Breitner
+    - Jose Brox
+    - Nicholas Carlini
+    - Mario Carneiro
+    - Floris van Doorn
+    - Martin Dvorak
+    - Andrés Goens
+    - Aaron Hill
+    - Harald Husum
+    - Hernán Ibarra Mejia
+    - Zoltan A. Kocsis
+    - Bruno Le Floch
+    - Amir Livne Bar-on
+    - Lorenzo Luccioli
+    - Douglas McNeil
+    - Alex Meiburg
+    - Pietro Monticone
+    - Pace P. Nielsen
+    - Emmanuel Osalotioman Osazuwa
+    - Giovanni Paolini
+    - Marco Petracci
+    - Bernhard Reinke
+    - David Renshaw
+    - Marcus Rossel
+    - Cody Roux
+    - Jérémy Scanvic
+    - Shreyas Srinivas
+    - Anand Rao Tadipatri
+    - Terence Tao
+    - Vlad Tsyrklevich
+    - Fernando Vaquerizo-Villar
+    - Daniel Weber
+    - Fan Zheng
+  
+SN26:
+  type: article
+  title: "Mechanizing Gödel's Incompleteness Theorems and Provability Logic"
+  url: https://arxiv.org/abs/2609.13780
+  author:
+    - Saitou, Shogo
+    - Noguchi, Mashū
+  date: 2026-09-15
+
+God31:
+  type: article
+  title: Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I
+  author: Gödel, Kurt
+  date: 1931
+  page-range: 173-198
+  serial-number:
+    doi: 10.1007/BF01700692
+    issn: 0026-9255
+  parent:
+    type: periodical
+    title: Monatshefte für Mathematik und Physik
+    volume: 38
+
+Lob55:
+  type: article
+  title: Solution of a Problem of {Leon Henkin}
+  author: Löb, M. H.
+  date: 1955
+  page-range: 115-118
+  serial-number:
+    doi: 10.2307/2266895
+    issn: 0022-4812
+  parent:
+    type: periodical
+    title: The Journal of Symbolic Logic
+    volume: 20
+
+Sol76:
+  type: article
+  title: Provability Interpretations of Modal Logic
+  author: Solovay, Robert M.
+  date: 1976-09
+  page-range: 287-304
+  serial-number:
+    doi: 10.1007/BF02757006
+    issn: 0021-2172, 1565-8511
+  parent:
+    type: periodical
+    title: Israel Journal of Mathematics
+    issue: 3-4
+    volume: 25
+
+HB39:
+  type: book
+  title: Grundlagen der Mathematik. Bd. 2
+  author:
+    - Hilbert, David
+    - Bernays, Paul
+  date: 1939
+  publisher: Springer
+  location: Berlin
+  volume: 50
+  parent:
+    type: book
+    title: Grundlehren der mathematischen Wissenschaften
+
+TMR53:
+  type: book
+  title: Undecidable Theories
+  author:
+    - Tarski, Alfred
+    - Mostowski, Andrzej
+    - Robinson, Raphael M.
+  date: 1953
+  publisher:
+    name: North-Holland
+    location: Amsterdam
+  parent:
+    type: book
+    title: Studies in Logic and the Foundations of Mathematics
+
+Vau62:
+  type: chapter
+  title: On a Theorem of {Cobham} Concerning Undecidable Theories
+  author: Vaught, R. L.
+  date: 1962
+  page-range: 14-25
+  parent:
+    type: anthology
+    title: Logic, Methodology and Philosophy of Science. Proceedings of the 1960 International Congress
+    editor:
+      - Nagel, Ernest
+      - Suppes, Patrick
+      - Tarski, Alfred
+    publisher:
+      name: Stanford University Press
+      location: Stanford, CA
+
+Tai68:
+  type: chapter
+  title: Normal Derivability in Classical Logic
+  author: Tait, W. W.
+  date: 1968
+  page-range: 204-236
+  serial-number:
+    doi: 10.1007/BFb0079691
+  parent:
+    type: anthology
+    title: The Syntax and Semantics of Infinitary Languages
+    editor: Barwise, Jon
+    publisher:
+      name: Springer
+      location: Berlin, Heidelberg
+    volume: 72
+
+Avi01:
+  type: article
+  title: Algebraic Proofs of Cut Elimination
+  author: Avigad, Jeremy
+  date: 2001-09
+  page-range: 15-30
+  serial-number:
+    doi: 10.1016/S1567-8326(01)00009-1
+    issn: 1567-8326
+  parent:
+    type: periodical
+    title: The Journal of Logic and Algebraic Programming
+    issue: 1-2
+    volume: 49
+
+Avi04:
+  type: article
+  title: Forcing in Proof Theory
+  author: Avigad, Jeremy
+  date: 2004
+  page-range: 305-333
+  serial-number:
+    doi: 10.2178/bsl/1102022660
+    issn: 1079-8986
+  parent:
+    type: periodical
+    title: The Bulletin of Symbolic Logic
+    issue: 3
+    volume: 10
+
+Boo94:
+  type: book
+  title: The Logic of Provability
+  author: Boolos, George
+  date: 1994
+  publisher:
+    name: Cambridge University Press
+    location: Cambridge
+  serial-number:
+    doi: 10.1017/CBO9780511625183
+    isbn: 978-0-521-48325-4
+
+Smo85:
+  type: book
+  title: Self-Reference and Modal Logic
+  author: Smoryński, C.
+  date: 1985-04
+  publisher:
+    name: Springer New York
+    location: New York, NY
+  serial-number:
+    doi: 10.1007/978-1-4613-8601-8
+    isbn: 978-0-387-96209-2 978-1-4613-8601-8
+  parent:
+    type: book
+    title: Universitext
+
+Ver24:
+  type: web
+  title: Provability Logic
+  author: Verbrugge, Rineke
+  date: 2024
+  url:
+    value: https://plato.stanford.edu/archives/sum2024/entries/logic-provability/
+    date: 2026-07-27
+  parent:
+    type: web
+    title: The Stanford Encyclopedia of Philosophy (Summer 2024 Edition)
+    editor:
+      - Zalta, Edward N.
+      - Nodelman, Uri
+
+
+dMU21:
+  type: chapter
+  title: The Lean 4 Theorem Prover and Programming Language
+  author:
+    - name: de Moura
+      given-name: Leonardo
+    - Ullrich, Sebastian
+  date: 2021
+  page-range: 625-635
+  serial-number:
+    doi: 10.1007/978-3-030-79876-5_37
+    isbn: 978-3-030-79875-8
+  parent:
+    type: anthology
+    title: "Automated Deduction – CADE 28: 28th International Conference on Automated Deduction, Virtual Event, July 12–15, 2021, Proceedings"
+    publisher:
+      name: Springer-Verlag
+      location: Berlin, Heidelberg
+
+Mathlib2020:
+  type: chapter
+  title: The Lean Mathematical Library
+  author:
+    - name: The mathlib Community
+  date: 2020-01
+  page-range: 367-381
+  serial-number:
+    doi: 10.1145/3372885.3373824
+  parent:
+    type: anthology
+    title: Proceedings of the 9th ACM SIGPLAN International Conference on Certified Programs and Proofs
+    publisher:
+      name: ACM
+      location: New Orleans, LA, USA
+
+Sha86:
+  type: thesis
+  title: Proof-Checking Metamathematics (Theorem-Proving)
+  author: Shankar, Natarajan
+  date: 1986
+  organization: The University of Texas at Austin
+  genre: Ph.D. thesis
+
+OCo05:
+  type: chapter
+  title: Essential Incompleteness of Arithmetic Verified by Coq
+  author: "O'Connor, Russell"
+  date: 2005
+  page-range: 245-260
+  serial-number:
+    doi: 10.1007/11541868_16
+    isbn: 978-3-540-31820-0
+  parent:
+    type: anthology
+    title: Theorem Proving in Higher Order Logics
+    editor:
+      - Hurd, Joe
+      - Melham, Tom
+    publisher:
+      name: Springer Berlin Heidelberg
+      location: Berlin, Heidelberg
+
+Pau14:
+  type: article
+  title: A Machine-Assisted Proof of Gödel's Incompleteness Theorems for the Theory of Hereditarily Finite Sets
+  author: Paulson, Lawrence C.
+  date: 2014
+  page-range: 484-498
+  serial-number:
+    doi: 10.1017/S1755020314000112
+  parent:
+    type: periodical
+    title: The Review of Symbolic Logic
+    issue: 3
+    volume: 7
+
+PT21:
+  type: article
+  title: Distilling the Requirements of Gödel's Incompleteness Theorems with a Proof Assistant
+  author:
+    - Popescu, Andrei
+    - Traytel, Dmitriy
+  date: 2021-01
+  page-range: 1027-1070
+  serial-number:
+    doi: 10.1007/s10817-021-09599-8
+    issn: 0168-7433, 1573-0670
+  parent:
+    type: periodical
+    title: Journal of Automated Reasoning
+    issue: 7
+    volume: 65
+
+KP23:
+  type: chapter
+  title: Gödel's Theorem Without Tears – Essential Incompleteness in Synthetic Computability
+  author:
+    - Kirst, Dominik
+    - Peters, Benjamin
+  date: 2023
+  page-range: 30:1-30:18
+  serial-number:
+    doi: 10.4230/LIPIcs.CSL.2023.30
+    isbn: 978-3-95977-264-8
+    issn: 1868-8969
+  parent:
+    type: anthology
+    title: 31st EACSL Annual Conference on Computer Science Logic (CSL 2023)
+    editor:
+      - Klin, Bartek
+      - Pimentel, Elaine
+    publisher:
+      name: Schloss Dagstuhl – Leibniz-Zentrum für Informatik
+      location: Dagstuhl, Germany
+    volume: 252
+
+Bai24:
+  type: thesis
+  title: Löb's Theorem and Provability Predicates in Coq
+  author: Bailitis, Janis
+  date: 2024-08
+  organization: Saarland University
+  genre: Bachelor's thesis
+
+MPB21:
+  type: chapter
+  title: A Formal Proof of Modal Completeness for Provability Logic
+  author:
+    - Maggesi, Marco
+    - Perini Brogi, Cosimo
+  date: 2021
+  page-range: 26:1-26:18
+  serial-number:
+    doi: 10.4230/LIPIcs.ITP.2021.26
+    isbn: 978-3-95977-188-7
+    issn: 1868-8969
+  parent:
+    type: anthology
+    title: 12th International Conference on Interactive Theorem Proving (ITP 2021)
+    editor:
+      - Cohen, Liron
+      - Kaliszyk, Cezary
+    publisher:
+      name: Schloss Dagstuhl – Leibniz-Zentrum für Informatik
+      location: Dagstuhl, Germany
+    volume: 193
+
+MPB23:
+  type: article
+  title: Mechanising Gödel–Löb Provability Logic in HOL Light
+  author:
+    - Maggesi, Marco
+    - Perini Brogi, Cosimo
+  date: 2023-07
+  serial-number:
+    doi: 10.1007/s10817-023-09677-z
+    issn: 0168-7433, 1573-0670
+  parent:
+    type: periodical
+    title: Journal of Automated Reasoning
+    issue: 3
+    volume: 67
+
+BMPB25:
+  type: chapter
+  title: A Modular Proof of Semantic Completeness for Normal Systems beyond the Modal Cube, Formalised in HOLMS
+  author:
+    - Bilotta, Antonella
+    - Maggesi, Marco
+    - Perini Brogi, Cosimo
+  date: 2025
+  page-range: 154-162
+  parent:
+    type: anthology
+    title: 26th Italian Conference on Theoretical Computer Science
+    publisher:
+      location: Pescara
+    volume: 4039
+
+BMPB26:
+  type: chapter
+  title: A Modular Framework for Proof-Search via Formalised Modal Completeness in HOL Light
+  author:
+    - Bilotta, Antonella
+    - Maggesi, Marco
+    - Perini Brogi, Cosimo
+  date: 2026
+  page-range: 18:1-18:29
+  serial-number:
+    doi: 10.4230/LIPICS.CSL.2026.18
+    isbn: 9783959774116
+    issn: 1868-8969
+  parent:
+    type: anthology
+    title: Computer Science Logic (CSL 2026)
+    editor:
+      - Guerrini, Stefano
+      - König, Barbara
+    publisher: Schloss Dagstuhl – Leibniz-Zentrum für Informatik
+    volume: 363
+
+AB05:
+  type: chapter
+  title: Provability Logic
+  author:
+    - Artemov, Sergei N.
+    - Beklemishev, Lev D.
+  date: 2005
+  page-range: 189-360
+  serial-number:
+    doi: 10.1007/1-4020-3521-7_3
+    isbn: 978-1-4020-3521-0
+  parent:
+    type: anthology
+    title: Handbook of Philosophical Logic, 2nd Edition
+    editor:
+      - Gabbay, D. M.
+      - Guenthner, F.
+    publisher:
+      name: Springer Netherlands
+      location: Dordrecht
+
+Bek90:
+  type: article
+  title: On the Classification of Propositional Provability Logics
+  author: Beklemishev, Lev D.
+  date: 1990-04
+  page-range: 247-275
+  serial-number:
+    doi: 10.1070/IM1990v035n02ABEH000701
+    issn: 0025-5726
+  parent:
+    type: periodical
+    title: Mathematics of the USSR-Izvestiya
+    issue: 2
+    volume: 35
+
+SV82:
+  type: article
+  title: The Modal Logic of Provability. The Sequential Approach
+  author:
+    - Sambin, Giovanni
+    - Valentini, Silvio
+  date: 1982-08
+  page-range: 311-342
+  serial-number:
+    doi: 10.1007/BF00293433
+  parent:
+    type: periodical
+    title: Journal of Philosophical Logic
+    issue: 3
+    volume: 11
+
+Bri16:
+  type: article
+  title: Cut Elimination for GLS Using the Terminability of Its Regress Process
+  author: Brighton, Jude
+  date: 2016
+  page-range: 147-153
+  serial-number:
+    doi: 10.1007/s10992-015-9368-4
+    issn: 0022-3611, 1573-0433
+  parent:
+    type: periodical
+    title: Journal of Philosophical Logic
+    issue: 2
+    volume: 45
+
+GRS21:
+  type: chapter
+  title: "Cut-Elimination for Provability Logic by Terminating Proof-Search: Formalised and Deconstructed Using Coq"
+  author:
+    - Goré, Rajeev
+    - Ramanayake, Revantha
+    - Shillito, Ian
+  date: 2021
+  page-range: 299-313
+  serial-number:
+    doi: 10.1007/978-3-030-86059-2_18
+    isbn: 978-3-030-86058-5 978-3-030-86059-2
+  parent:
+    type: anthology
+    title: Automated Reasoning with Analytic Tableaux and Related Methods
+    editor:
+      - Das, Anupam
+      - Negri, Sara
+    publisher:
+      name: Springer International Publishing
+      location: Cham
+    volume: 12842
+
+GR12:
+  type: article
+  title: Valentini's Cut-Elimination for Provability Logic Resolved
+  author:
+    - Goré, Rajeev
+    - Ramanayake, Revantha
+  date: 2012-06
+  page-range: 212-238
+  serial-number:
+    doi: 10.1017/S1755020311000323
+    issn: 1755-0203, 1755-0211
+  parent:
+    type: periodical
+    title: The Review of Symbolic Logic
+    issue: 2
+    volume: 5
+
+Neg05:
+  type: article
+  title: Proof Analysis in Modal Logic
+  author: Negri, Sara
+  date: 2005-10
+  page-range: 507-544
+  serial-number:
+    doi: 10.1007/s10992-005-2267-3
+    issn: 0022-3611, 1573-0433
+  parent:
+    type: periodical
+    title: Journal of Philosophical Logic
+    issue: 5-6
+    volume: 34
+
+Gig26:
+  type: thesis
+  title: Proofs as Coalgebras
+  author: Gignoux, Madeleine
+  date: 2026-05
+  organization: Universiteit van Amsterdam
+  genre: Master's thesis
+
+AM18:
+  type: article
+  title: The Σ₁-Provability Logic of HA
+  author:
+    - Ardeshir, Mohammad
+    - Mojtahedi, Mojtaba
+  date: 2018
+  page-range: 997-1043
+  serial-number:
+    doi: 10.1016/j.apal.2018.05.001
+  parent:
+    type: periodical
+    title: Annals of Pure and Applied Logic
+    volume: 169
+
+AM19:
+  type: article
+  title: The Σ₁-Provability Logic of HA*
+  author:
+    - Ardeshir, Mohammad
+    - Mojtahedi, Mojtaba
+  date: 2019
+  page-range: 1118-1135
+  serial-number:
+    doi: 10.1017/jsl.2019.44
+  parent:
+    type: periodical
+    title: The Journal of Symbolic Logic
+    volume: 84
+
+Moj24:
+  type: chapter
+  title: The Σ₁-Provability Logic of HA Revisited
+  author: Mojtahedi, Mojtaba
+  date: 2024
+  page-range: 89-110
+  serial-number:
+    doi: 10.1007/978-3-031-47921-2_4
+  parent:
+    type: anthology
+    title: Dick de Jongh on Intuitionistic and Provability Logics
+    editor:
+      - Bezhanishvili, Nick
+      - Iemhoff, Rosalie
+      - Yang, Fan
+    publisher:
+      name: Springer International Publishing
+      location: Cham
+
+Moj26:
+  type: article
+  title: On the Provability Logic of HA
+  author: Mojtahedi, Mojtaba
+  date: 2026
+  serial-number:
+    doi: 10.48550/arXiv.2206.00445
+    arxiv: "2206.00445"
+
+SM23a:
+  type: thesis
+  title: On the Provability Logic of Constructive Arithmetic
+  author: Sierra Miranda, Borja
+  date: 2023
+  organization: Universiteit van Amsterdam
+  genre: Master's thesis
+
+BV06:
+  type: chapter
+  title: Problems in the Logic of Provability
+  author:
+    - Beklemishev, Lev D.
+    - Visser, Albert
+  date: 2006
+  page-range: 77-136
+  serial-number:
+    doi: 10.1007/0-387-31072-X_2
+  parent:
+    type: anthology
+    title: Mathematical Problems from Applied Logic I
+    editor:
+      - Gabbay, Dov M.
+      - Goncharov, Sergei S.
+      - Zakharyaschev, Michael
+    publisher:
+      name: Springer
+      location: New York
+
+vdGI21:
+  type: article
+  title: Sequent Calculi for Intuitionistic Gödel–Löb Logic
+  author:
+    - name: van der Giessen
+      given-name: Iris
+    - Iemhoff, Rosalie
+  date: 2021
+  page-range: 221-246
+  serial-number:
+    doi: 10.1215/00294527-2021-0011
+  parent:
+    type: periodical
+    title: Notre Dame Journal of Formal Logic
+    volume: 62
+
+Lit14:
+  type: chapter
+  title: Constructive Modalities with Provability Smack
+  author: Litak, Tadeusz
+  date: 2014
+  page-range: 187-216
+  serial-number:
+    doi: 10.1007/978-94-017-8860-1_8
+  parent:
+    type: anthology
+    title: Leo Esakia on Duality in Modal and Intuitionistic Logics
+    editor: Bezhanishvili, Guram
+    publisher:
+      name: Springer Netherlands
+      location: Dordrecht
+
+Urs79:
+  type: article
+  title: A Modal Calculus Analogous to K4W, Based on Intuitionistic Propositional Logic, I°
+  author: Ursini, Aldo
+  date: 1979
+  page-range: 297-311
+  serial-number:
+    doi: 10.1007/BF00405387
+  parent:
+    type: periodical
+    title: Studia Logica
+    volume: 38
+
+GS22:
+  type: chapter
+  title: "Direct Elimination of Additive-Cuts in GL4ip: Verified and Extracted"
+  author:
+    - Goré, Rajeev
+    - Shillito, Ian
+  date: 2022
+  page-range: 429-450
+  url: http://www.aiml.net/volumes/volume14/26-Gore-Shillito.pdf
+  parent:
+    type: anthology
+    title: Advances in Modal Logic
+    editor:
+      - Fernández-Duque, David
+      - Palmigiano, Alessandra
+      - Pinchinat, Sophie
+    publisher:
+      name: College Publications
+      location: London
+
+Shi22:
+  type: thesis
+  title: New Foundations for the Proof Theory of Bi-Intuitionistic and Provability Logics Mechanized in Coq
+  author: Shillito, Ian
+  date: 2022
+  organization: Australian National University
+  genre: Ph.D. thesis
+  url: https://openresearch-repository.anu.edu.au/items/825a3f8c-6b8a-4cff-8c52-77e657723374
+
+SvdGGI23:
+  type: chapter
+  title: "A New Calculus for Intuitionistic Strong Löb Logic: Strong Termination and Cut-Elimination, Formalised"
+  author:
+    - Shillito, Ian
+    - name: van der Giessen
+      given-name: Iris
+    - Goré, Rajeev
+    - Iemhoff, Rosalie
+  date: 2023
+  page-range: 73-93
+  serial-number:
+    doi: 10.1007/978-3-031-43513-3_5
+  parent:
+    type: anthology
+    title: Automated Reasoning with Analytic Tableaux and Related Methods
+    editor:
+      - Ramanayake, Revantha
+      - Urban, Josef
+    publisher:
+      name: Springer Nature Switzerland
+      location: Cham
+
+FvdGvGS24:
+  type: chapter
+  title: Mechanised Uniform Interpolation for Modal Logics K, GL, and iSL
+  author:
+    - Férée, Hugo
+    - name: van der Giessen
+      given-name: Iris
+    - name: van Gool
+      given-name: Sam
+    - Shillito, Ian
+  date: 2024
+  page-range: 43-60
+  serial-number:
+    doi: 10.1007/978-3-031-63501-4_3
+  parent:
+    type: anthology
+    title: Automated Reasoning
+    editor:
+      - Benzmüller, Christoph
+      - Heule, Marijn J. H.
+      - Schmidt, Renate A.
+    publisher:
+      name: Springer Nature Switzerland
+      location: Cham
+
+VL24:
+  type: article
+  title: Lewis and Brouwer Meet Strong Löb
+  author:
+    - Visser, Albert
+    - Litak, Tadeusz
+  date: 2024
+  serial-number:
+    doi: 10.48550/arXiv.2404.11969
+    arxiv: "2404.11969"
+
+HvD20:
+  type: chapter
+  title: A Formal Proof of the Independence of the Continuum Hypothesis
+  author:
+    - Han, Jesse Michael
+    - name: van Doorn
+      given-name: Floris
+  date: 2020
+  page-range: 353-366
+  serial-number:
+    doi: 10.1145/3372885.3373826
+  parent:
+    type: proceedings
+    title: Proceedings of the 9th ACM SIGPLAN International Conference on Certified Programs and Proofs
+    publisher:
+      name: Association for Computing Machinery
+      location: New Orleans, LA, USA
+
+Kun11:
+  type: book
+  title: Set Theory
+  author: Kunen, Kenneth
+  date: 2011
+  publisher:
+    name: College Publications
+    location: London
+
+Fun24:
+  type: misc
+  title: ZF+¬ACの相対的無矛盾性証明のIsabelle/ZFによる形式化
+  author: 舟根, 大喜
+  date: 2024-11-26
+  url: https://www.math.nagoya-u.ac.jp/~garrigue/tpp2024/slides/funane.pdf
+  parent:
+    type: conference
+    title: "TPP 2024: 第20回 Theorem Proving and Provers ミーティング"
+    location: 九州大学
+
+Kun80:
+  type: book
+  title: "Set Theory: An Introduction to Independence Proofs"
+  author: Kunen, Kenneth
+  date: 1980
+  publisher:
+    name: North-Holland
+    location: Amsterdam
+  parent:
+    type: book
+    title: Studies in Logic and the Foundations of Mathematics
+    volume: 102
+
+Kun08:
+  type: book
+  title: "集合論: 独立性証明への案内"
+  author: Kunen, Kenneth
+  translator: 藤田, 博司
+  date: 2008
+  publisher:
+    name: 日本評論社
+
+Jec03:
+  type: book
+  title: "Set Theory: The Third Millennium Edition, Revised and Expanded"
+  author: Jech, Thomas
+  date: 2003
+  serial-number:
+    doi: 10.1007/3-540-44761-X
+  publisher:
+    name: Springer
+    location: Berlin, Heidelberg
+  parent:
+    type: book
+    title: Springer Monographs in Mathematics
+
+Jec08:
+  type: book
+  title: The Axiom of Choice
+  author: Jech, Thomas
+  date: 2008
+  publisher:
+    name: Dover Publications
+    location: Mineola, NY
+
+Kar23:
+  type: report
+  title: "Lecture Notes: Forcing & Symmetric Extensions"
+  author: Karagila, Asaf
+  date: 2023
+
+KEH09:
+  type: chapter
+  title: "seL4: Formal Verification of an OS Kernel"
+  author:
+    - Klein, Gerwin
+    - Elphinstone, Kevin
+    - Heiser, Gernot
+    - Andronick, June
+    - Cock, David
+    - Derrin, Philip
+    - Elkaduwe, Dhammika
+    - Engelhardt, Kai
+    - Kolanski, Rafal
+    - Norrish, Michael
+    - Sewell, Thomas
+    - Tuch, Harvey
+    - Winwood, Simon
+  date: 2009
+  page-range: 207-220
+  serial-number:
+    doi: 10.1145/1629575.1629596
+  parent:
+    type: proceedings
+    title: Proceedings of the ACM SIGOPS 22nd Symposium on Operating Systems Principles
+    publisher:
+      name: Association for Computing Machinery
+      location: New York, NY, USA
+
+Pau03:
+  type: article
+  title: The Relative Consistency of the Axiom of Choice Mechanized Using Isabelle/ZF
+  author: Paulson, Lawrence C.
+  date: 2003
+  page-range: 198-248
+  serial-number:
+    doi: 10.1112/S1461157000000449
+  parent:
+    type: periodical
+    title: LMS Journal of Computation and Mathematics
+    volume: 6
+
+GPST20:
+  type: chapter
+  title: Formalization of Forcing in Isabelle/ZF
+  author:
+    - Gunther, Emmanuel
+    - Pagano, Miguel
+    - Sánchez Terraf, Pedro
+  date: 2020
+  page-range: 221-235
+  serial-number:
+    doi: 10.1007/978-3-030-51054-1_13
+  parent:
+    type: anthology
+    title: Automated Reasoning
+    editor:
+      - Peltier, Nicolas
+      - Sofronie-Stokkermans, Viorica
+    publisher:
+      name: Springer International Publishing
+      location: Cham
+    volume: 12167
+
+GPSTS22:
+  type: misc
+  title: The Independence of the Continuum Hypothesis in Isabelle/ZF
+  author:
+    - Gunther, Emmanuel
+    - Pagano, Miguel
+    - Sánchez Terraf, Pedro
+    - Steinberg, Matías
+  date: 2022-03-06
+  url: https://isa-afp.org/entries/Independence_CH.html
+  parent:
+    type: periodical
+    title: Archive of Formal Proofs
+
+Kik16:
+  type: book
+  title: "数学における証明と真理: 様相論理と数学基礎論"
+  author:
+    - 菊池, 誠
+    - 佐野, 勝彦
+    - 倉橋, 太志
+    - 薄葉, 季路
+    - 黒川, 英徳
+  editor: 菊池, 誠
+  date: 2016-03-28
+  serial-number:
+    isbn: 978-4-320-11148-6
+  url: https://www.kyoritsu-pub.co.jp/book/b10003727.html
+  publisher:
+    name: 共立出版
+
+Avr84:
+  type: article
+  title: On Modal Systems Having Arithmetical Interpretations
+  author: Avron, Arnon
+  date: 1984-09
+  page-range: 935-942
+  parent:
+    type: periodical
+    title: Journal of Symbolic Logic
+    issue: 3
+    volume: 49
+
+Bek87:
+  type: article
+  title: Normalization of Deductions and Interpolation for Some Logics of Provability
+  author: Beklemishev, Lev D.
+  date: 1987-12
+  page-range: 223-224
+  parent:
+    type: periodical
+    title: Russian Mathematical Surveys
+    issue: 6
+    volume: 42
+
+Bek89:
+  type: article
+  title: Provability Logic without Craig's Interpolation Property
+  author: Beklemishev, Lev D.
+  date: 1989-06
+  page-range: 437-445
+  parent:
+    type: periodical
+    title: Mathematical Notes of the Academy of Sciences of the USSR
+    issue: 6
+    volume: 45
+
+Bor83:
+  type: article
+  title: On Some Proof Theoretical Properties of the Modal Logic GL
+  author: Borga, Marco
+  date: 1983-12
+  page-range: 453-459
+  parent:
+    type: periodical
+    title: Studia Logica
+    issue: 4
+    volume: 42
+
+Che21:
+  type: article
+  title: Sequent Calculus for Weak Logic F
+  author: Chen, Yu
+  date: 2021
+  page-range: 28-48
+  note: In Chinese.
+  parent:
+    type: periodical
+    title: Studies in Logic
+    issue: 1
+    volume: 14
+
+IKK01:
+  type: article
+  title: Sequent Calculi for Visser's Propositional Logics
+  author:
+    - Ishii, Katsumasa
+    - Kashima, Ryo
+    - Kikuchi, Kentaro
+  date: 2001-01
+  parent:
+    type: periodical
+    title: Notre Dame Journal of Formal Logic
+    issue: 1
+    volume: 42
+
+Jap86:
+  type: thesis
+  title: The Modal Logical Means of Investigation of Provability
+  author: Japaridze, Giorgi
+  date: 1986
+  organization: Moscow State Univ
+  location: Moscow
+
+KK23:
+  type: web
+  title: Semantical Cut-Elimination for the Provability Logic of True Arithmetic
+  author:
+    - Kashima, Ryo
+    - Kato, Yutaka
+  date: 2023-09
+
+KKIM25:
+  type: article
+  title: Cut-Free Sequent Calculi for the Provability Logic D
+  author:
+    - Kashima, Ryo
+    - Kurahashi, Taishi
+    - Iwata, Sohei
+    - Morioka, So
+  date: 2025-02
+  page-range: 1-22
+  parent:
+    type: periodical
+    title: The Review of Symbolic Logic
+
+Kus20:
+  type: article
+  title: A Proof Theory for the Logic of Provability in True Arithmetic
+  author: Kushida, Hirohiko
+  date: 2020-08
+  page-range: 857-875
+  parent:
+    type: periodical
+    title: Studia Logica
+    issue: 4
+    volume: 108
+
+Lei81:
+  type: article
+  title: On the Proof Theory of the Modal Logic for Arithmetic Provability
+  author: Leivant, Daniel
+  date: 1981-09
+  page-range: 531-538
+  parent:
+    type: periodical
+    title: Journal of Symbolic Logic
+    issue: 3
+    volume: 46
+
+Moe01:
+  type: article
+  title: The Proposed Algorithms for Eliminating Cuts in the Provability Calculus GLS Do Not Terminate
+  author: Moen, Andres
+  date: 2001
+  parent:
+    type: proceedings
+    title: The 13th Nordic Workshop in Programming Theory
+
+NvP11:
+  type: book
+  title: "Proof Analysis: A Contribution to Hilbert's Last Problem"
+  author:
+    - Negri, Sara
+    - von Plato, Jan
+  date: 2011
+  publisher:
+    name: Cambridge University Press
+    location: Cambridge
+
+Pet23:
+  type: article
+  title: A Modification of Visser's Formal Logic and Its Connection with Solovay's Modal Logic
+  author: Petrukhin, Yaroslav
+  date: 2023-11
+  page-range: 12-21
+  parent:
+    type: periodical
+    title: Russian Mathematics
+    issue: 11
+    volume: 67
+
+SO97:
+  type: report
+  title: Hilbert Style Proof System for BPL
+  author:
+    - Suzuki, Yasuhito
+    - Ono, Hiroakira
+  date: 1997-10
+  serial-number:
+    serial: IS-RR-97-0040F
+  organization: School of Information Science, Japan Advanced Institute of Science and Technology
+
+TS00:
+  type: book
+  title: Basic Proof Theory
+  author:
+    - Troelstra, Anne Sjerp
+    - Schwichtenberg, Helmut
+  date: 2000
+  publisher:
+    name: Cambridge University Press
+
+Val83:
+  type: article
+  title: "The Modal Logic of Provability: Cut-Elimination"
+  author: Valentini, Silvio
+  date: 1983-11
+  page-range: 471-476
+  parent:
+    type: periodical
+    title: Journal of Philosophical Logic
+    issue: 4
+    volume: 12
+
+Vis84:
+  type: article
+  title: The Provability Logics of Recursively Enumerable Theories Extending Peano Arithmetic at Arbitrary Theories Extending Peano Arithmetic
+  author: Visser, Albert
+  date: 1984-02
+  page-range: 97-113
+  parent:
+    type: periodical
+    title: Journal of Philosophical Logic
+    issue: 1
+    volume: 13
+
+YS17:
+  type: chapter
+  title: Proof-Theoretic Embedding from Visser's Basic Propositional Logic to Modal Logic K4 via Non-labelled Sequent Calculi
+  author:
+    - Yamasaki, Sakiko
+    - Sano, Katsuhiko
+  date: 2017
+  page-range: 233-257
+  parent:
+    type: anthology
+    title: "Philosophical Logic: Current Trends in Asia"
+    editor:
+      - Yang, Syraya Chin-Mu
+      - Lee, Kok Yong
+      - Ono, Hiroakira
+    publisher:
+      name: Springer Singapore
+      location: Singapore
+
+Nog26:
+  type: web
+  title: Embeddings of Propositional Logics into the Provability Logics S and D
+  author: Noguchi, Mashu
+  date: 2026-08-06
+  url: https://arxiv.org/abs/2608.04620
+  serial-number:
+    arxiv: "2608.04620"
+  abstract: Just as Visser showed that the formal propositional logic FPL can be embedded into Gödel-Löb provability logic GL, Petrukhin proposed a propositional logic SPL that can be embedded into Solovay's non-normal provability logic S. In this paper, we fix Petrukhin's proof and extend the result to Japaridze's provability logic D, and propose a propositional logic DPL that can be embedded into D.

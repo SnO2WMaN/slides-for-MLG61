@@ -1,0 +1,4 @@
+*.pdf
+
+# VSCode
+.vscode/settings.json

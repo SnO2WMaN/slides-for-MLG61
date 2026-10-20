@@ -1,0 +1,78 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      # main.typ / nightcore.typ / template.typ が使うフォント（"New Computer Modern Math" は Typst 同梱）．
+      # fontsource の配布物は Unicode 範囲ごとのサブセットに分かれており，Typst は同一ファミリ・
+      # 同一ウェイトのうち 1 ファイルしか選ばないため英字などが Libertinus Serif に落ちる．
+      # そのため google/fonts の完全版 TTF を，再現性のためコミットを固定して取得する．
+      - name: Install "Shippori Antique", "Shippori Antique B1" and "Geist"
+        env:
+          GOOGLE_FONTS_REV: 9710da1eacb3be272583c3224dcb70f9da6eadbb
+        run: |
+          base="https://raw.githubusercontent.com/google/fonts/$GOOGLE_FONTS_REV/ofl"
+          dir="$HOME/.local/share/fonts/google-fonts"
+          mkdir -p "$dir"
+          curl -fsSL -o "$dir/ShipporiAntique-Regular.ttf" "$base/shipporiantique/ShipporiAntique-Regular.ttf"
+          curl -fsSL -o "$dir/ShipporiAntiqueB1-Regular.ttf" "$base/shipporiantiqueb1/ShipporiAntiqueB1-Regular.ttf"
+          curl -fsSL -o "$dir/Geist[wght].ttf" "$base/geist/Geist%5Bwght%5D.ttf"
+          fc-cache -fv
+      - name: Install "Juisee"
+        env:
+          JUISEE_VERSION: v0.2.0
+        run: |
+          dir="$HOME/.local/share/fonts/juisee"
+          mkdir -p "$dir"
+          curl -fsSL -o "$RUNNER_TEMP/juisee.zip" "https://github.com/yuru7/juisee/releases/download/$JUISEE_VERSION/Juisee_$JUISEE_VERSION.zip"
+          unzip -j "$RUNNER_TEMP/juisee.zip" "Juisee_$JUISEE_VERSION/Juisee-*.ttf" -d "$dir"
+          fc-cache -fv
+      - uses: typst-community/setup-typst@v5
+      - name: Check fonts
+        run: |
+          fonts="$(typst fonts)"
+          for family in "Shippori Antique" "Shippori Antique B1" "Geist" "Juisee" "New Computer Modern Math"; do
+            echo "$fonts" | grep -Fxq "$family" || { echo "::error::font not found: $family"; exit 1; }
+          done
+      - run: typst compile main.typ main.pdf
+      - run: typst compile nightcore.typ nightcore.pdf
+      - name: Create page directory
+        run: |
+          mkdir _pages
+          mv ./main.pdf ./_pages/main.pdf
+          mv ./nightcore.pdf ./_pages/nightcore.pdf
+          echo "<meta http-equiv=\"refresh\" content=\"0;URL='$(gh api "repos/$GITHUB_REPOSITORY" --jq '.html_url')'\">" > ./_pages/index.html
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: _pages/
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    if: github.ref == 'refs/heads/main'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v5
+        id: deployment
